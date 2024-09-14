@@ -6,4 +6,5 @@ phases:
   build:
     commands:
       mvn -B package --file pom.xml      
+      mv target/stefansreleasedemo-0.0.1-SNAPSHOT.jar target/stefansreleasedemo.jar
     
